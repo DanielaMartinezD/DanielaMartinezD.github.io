@@ -1,0 +1,50 @@
+p{
+    color:black;
+    background: palevioletred;
+    font-size: 50px;
+    font-style: italic;
+
+}
+
+body {
+    background-color: lightcyan;
+}
+
+.text {
+    text-align: justify;
+}
+
+.border-collie {
+    width: 250px;
+    border: 10px solid paleturquoise; 
+    border-radius: 10px; 
+    display: block;
+    margin: auto;
+}
+
+table {
+    border: 2px solid black; 
+    border-collapse: collapse; 
+    margin: 0 auto;
+}
+
+th  {
+    border: 2px solid black; 
+    padding: 8px; 
+    text-align: center;  
+    color: azure;
+    background-color: palevioletred; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+td {
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: center; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button {
+    background-color: paleturquoise;
+}
+

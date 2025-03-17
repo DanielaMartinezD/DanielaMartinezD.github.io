@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <p>Daniela Martínez</p>
+    <h1>Student Characteristics:</h1>
+    <ul>
+        <li>Environmental Civil Engineering</li>
+        <li>Enrollment in University: 2022</li>
+        <li>Link to Personal Github: <a href="https://github.com/DanielaMartinezD">DanielaMartinezD</a></li>
+    </ul>
+
+    <p>Personal Summary</p>
+    <hr>
+
+    <h2 class="text">
+        My name is Daniela Martínez, I am 21 years old. I am currently studying my fourth year of Environmental Civil Engineering, and the reason why I chose this technological concentration is that I want to expand my knowledge in programming. Also, my hobbies are drawing and playing videogames.
+    </h2>
+
+    <h3>
+        <img class="border-collie" src="https://bordercolliehealth.com/wp-content/uploads/2019/12/a-full-grown-Border-Collie.jpg" alt="Border Collie">
+        Link to a Border Collie video: <a href="https://www.youtube.com/watch?v=GaN69d0YmkM">Video</a>
+    </h3>
+
+    <p>Skill Table</p>
+
+    <table>
+        <tr>
+            <th>Skill</th>
+            <th>Level</th>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Advanced</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Basic</td>
+        </tr>
+        <tr>
+            <td>HTML/CSS</td>
+            <td>Basic</td>
+        </tr>
+        <tr>
+            <td>Git</td>
+            <td>Basic</td>
+        </tr>
+        <tr>
+            <td>Excel</td>
+            <td>Advanced</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>Advanced</td>
+        </tr>
+        <tr>
+            <td>Spanish</td>
+            <td>Native</td>
+        </tr>
+    </table>
+
+    <p>Others</p>
+
+    <input type="text" id="text">
+    <button onclick="print()" class="button">Confirm</button>
+        
+    <ul id="input"></ul>
+
+    <script>
+        function print() {
+            let txt = document.getElementById("text").value;
+            document.getElementById("input").textContent = txt;
+        }
+    </script>  
+</body>
+
+</html>
