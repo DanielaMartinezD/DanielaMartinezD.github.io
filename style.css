@@ -1,7 +1,7 @@
-p{
-    color:black;
+p {
+    color: black;
     background: palevioletred;
-    font-size: 50px;
+    font-size: 30px;
     font-style: italic;
 
 }
@@ -12,39 +12,60 @@ body {
 
 .text {
     text-align: justify;
+    font-size: 14px;
 }
 
-.border-collie {
-    width: 250px;
-    border: 10px solid paleturquoise; 
-    border-radius: 10px; 
+.carousel-inner {
+    width: 350px;
+    border: 10px solid paleturquoise;
+    border-radius: 10px;
     display: block;
     margin: auto;
 }
 
 table {
-    border: 2px solid black; 
-    border-collapse: collapse; 
+    border: 2px solid black;
+    border-collapse: collapse;
     margin: 0 auto;
 }
 
-th  {
-    border: 2px solid black; 
-    padding: 8px; 
-    text-align: center;  
+th {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
     color: azure;
-    background-color: palevioletred; 
+    background-color: palevioletred;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 td {
-    border: 1px solid black; 
-    padding: 8px; 
-    text-align: center; 
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .button {
     background-color: paleturquoise;
+    border: 2px solid;
+    border-color: cornflowerblue;
+    color: black;
 }
 
+.card-news-card {
+    background-color: aliceblue;
+    border:
+}
+
+.card-tittle {
+    text-align: center;
+    font-size: 18px;
+    background-color: paleturquoise;
+    color: black;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: cornflowerblue;
+}
