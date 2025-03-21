@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(error => console.error("Error fetching news:", error));
 
     function displayNews(articles) {
-        newsContainer.innerHTML = ""; // Limpia contenido previo
+        newsContainer.innerHTML = ""; 
 
         articles.forEach(article => {
             const newsCard = document.createElement("div");
